@@ -328,10 +328,10 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 		});
 
 
-		GSDevTools.create({
-			container: '.intro',
-			animation: introTL
-		});
+		// GSDevTools.create({
+		// 	container: '.intro',
+		// 	animation: introTL
+		// });
 
 		introTL.restart();
 
